@@ -227,7 +227,27 @@ $('#header .box1 > ul > li').click(function(){
 })
 
 
+//모바일 슬라이드
+if ($(window).width() < 850) {
 
+  $('#section1 .slider img').attr('src','images/slide_img_m.jpg');
+ 
+}else {
+
+  $('#section1 .slider img').attr('src','images/slide_img.jpg');
+ 
+}
+$(window).resize(function(){
+if ($(window).width() < 850) {
+
+  $('#section1 .slider img').attr('src','images/slide_img_m.jpg');
+ 
+}else {
+
+  $('#section1 .slider img').attr('src','images/slide_img.jpg');
+ 
+}
+})//슬라이드닫기
 
 })//ready
 
