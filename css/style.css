@@ -1428,16 +1428,16 @@ html .ui-button.ui-state-disabled:active {
       
     }
     #header .nav-bottom h1 {
-        width: 70%;    }
+        width: 70%;  
+        transform: translateX(-15px);  }
     #header #nav2{
         display: none;
     }
 #header .nav-bottom {
-        padding: 30px 0px 30px 0px;
-        transform: translateX(-21px);
-    }
-#section1 .slider img {
-        padding-top: 136px;
+    padding: 16px 0px 16px 0px;
+}
+    #section1 .slider img {
+        padding-top: 109px;
     }
 #section2 .sec2-box {
         display: block;
@@ -1518,7 +1518,12 @@ html .ui-button.ui-state-disabled:active {
     margin-top: 34px;
 }
 #header .btn_all {
-    display:block;}
+    display:block;
+        width: 27px;
+        height: 30px;
+        top: 45px;        right: 39px;
+
+    }}
 #section5 .panels {
     width: 100%;
     height: 0;
@@ -1693,17 +1698,8 @@ width:100%
         #footer span {
             font-size: 0.7rem;
         }
-}
-@media all and (max-width:530px){
 
-    #section3 h2 {
-        transform: translateX(25px);
-    }
-}
-@media all and (max-width:500px){
-    #section3 h2 {
-        transform: translateX(25px);
-    }
+
     .sub_news .title {
         width: 60%;
     }
@@ -1715,7 +1711,6 @@ width:100%
     }
     #section3 h2 {
             width: 50%;
-            transform: translateX(25px);
         }
         #section3 .sec3-left>div:nth-child(3) {
             margin-left: 0px;
@@ -1748,8 +1743,19 @@ width:100%
 #section6 .sec6-left-text>div {
     font-size: 0.7rem;
 } 
+#section4 {
 
+    padding: 16px;
 
+}
+#section4 .sec4-right .sect4-right-icon h2>img, #section4 .sec4-right .sect4-right-icon2 h2>img {
+    width: 20%;
+    margin-left: 0px;
+  
+}
+#section4 .sec4-right .sect4-right-icon .margin>img, #section4 .sec4-right .sect4-right-icon2 .margin>img {
+    margin-left: 0px;
+}
 }
 
 
@@ -1774,18 +1780,21 @@ width:100%
         padding: 55px;
      
     }
-    #section5 .tabSet ul.tabs li {
-   
-        width: 90px;
-    }
-    #section3 .sec3-left>div:nth-child(4) {
-        margin-left: 30px;
+
+    #section3 {
+        padding: 48px;
     }
 
     #section3 h2 , #section3 h2>p {
         width: 100%;
     text-align: center;
        transform: translateX(0px);
+       margin-bottom: 16px;
     }
-  
+    #section3 .sec3-left>div {
+        margin-bottom: 30px;
+    }
+    #section3 .sec3-left {
+        justify-content: center;
+    }
 }
