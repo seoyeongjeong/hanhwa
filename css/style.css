@@ -1424,8 +1424,9 @@ html .ui-button.ui-state-disabled:active {
     #header #nav2{
         display: none;
     }
-    #header .nav-bottom{
+#header .nav-bottom {
         padding: 30px 0px 30px 0px;
+        transform: translateX(-21px);
     }
     #section1 .slider img {
         padding-top: 74px;
@@ -1619,6 +1620,9 @@ html .ui-button.ui-state-disabled:active {
         margin: 0 auto;
         padding: 84px 28px 78px 30px;
     }
+    #section2 .calender-right {
+        width: 80%;
+    }
 
 }
 @media all and (max-width:530px){
@@ -1634,6 +1638,7 @@ html .ui-button.ui-state-disabled:active {
         width: 30%;
         transform: translateX(25px);
     }
+
 }
 @media all and (max-width:355px){
     #section3 .sec3-left>div:nth-child(3) {
@@ -1641,6 +1646,23 @@ html .ui-button.ui-state-disabled:active {
     }
 
 
+}
+@media all and (max-width:460px){
+ 
+    #section2 .notice-right {
+        width: 100%;
+    }
+    #section3 h2 {
+            width: 50%;
+            transform: translateX(25px);
+        }
+        #section3 .sec3-left>div:nth-child(3) {
+            margin-left: 0px;
+        }
+        #section3 .sec3-left>div>a {
+            padding: 54px;
+        }
+    
 }
 
 @media all and (max-width:350px){
