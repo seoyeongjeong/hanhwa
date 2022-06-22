@@ -178,7 +178,7 @@ $("#section5 .regular").slick({
      {  breakpoint: 1024,
            settings: {
              slidesToShow: 2,
-             slidesToScroll: 1
+             slidesToScroll: 1,
            }
       }, {  breakpoint: 800,
         settings: {

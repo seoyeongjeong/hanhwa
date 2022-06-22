@@ -1374,7 +1374,19 @@ html .ui-button.ui-state-disabled:active {
 #section5 .tabSet ul.tabs {
             width: 50%;
         }
-
+        #section6 .sec6-left-text h2 {
+            margin: 10px 0px 5px 0px;
+            font-size: 1.2rem;
+        }
+        #section6 .sec6-left-text>div {
+            font-size: 0.8rem;
+        }
+        #section6 .sec6-left-text>a {
+            margin-top: 7px;
+            font-size: 0.8rem;
+        }
+        #section5 .tabSet ul.tabs {
+            padding: 46px 28px 41px 30px        }
 }
 
 @media all and (max-width:965px){
@@ -1581,6 +1593,16 @@ html .ui-button.ui-state-disabled:active {
     margin-bottom: 100px;
     margin: 0 auto;
 }
+#section6 {
+    padding: 25px;
+}
+#section6 .sec6-left {
+    margin-bottom: 30px;
+}
+#section6 .sec6-lef img{
+    height: 230px;
+}
+
 #footer {
     background-color: #272727;
     /* padding-top: 50px; */
@@ -1609,26 +1631,7 @@ html .ui-button.ui-state-disabled:active {
     border-bottom: none;
     font-family: 'NanumSquareEB';
 }
-#section6 {
-    padding: 25px;
-}
-#section6 .sec6-left {
-    margin-bottom: 30px;
-}
-#section6 .sec6-lef img{
-    height: 230px;
-}
-#section6 .sec6-left-text h2 {
-    margin: 10px 0px 5px 0px;
-    font-size: 1.2rem;
-}
-#section6 .sec6-left-text>div {
-    font-size: 0.8rem;
-}
-#section6 .sec6-left-text>a {
-    margin-top: 7px;
-    font-size: 0.8rem;
-}
+
 #section7 .box {
 width:100%
 
@@ -1673,13 +1676,14 @@ width:100%
    
         padding: 0px 19px 10px 19px;}
 
-}
+
 #section5 .tabSet ul.tabs {
 
     padding: 55px 75px 78px 76px;
 }
 #section5 .tabSet ul.tabs li a.on {
     transform: scale(1)
+}
 }
 @media all and (max-width:530px){
     #section3 h2 {
