@@ -1656,11 +1656,16 @@ html .ui-button.ui-state-disabled:active {
         }
         #section2 .more {
             padding-right: 0px;    }
-        .sub_news .border {
-                font-size: 0.8rem;
-                padding: 2px;
-                width: 85px;
-            }
+.sub_news .border {
+            font-size: 0.8rem;
+            padding: 2px;
+            width: 85px;
+}
+.sub_news .title {
+            line-height: 20px;
+               
+}
+            
 }
 @media all and (max-width:355px){
     #section3 .sec3-left>div:nth-child(3) {
