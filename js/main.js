@@ -199,7 +199,18 @@ $("#section7 .regular2").slick({
   slidesToShow: 5,
   slidesToScroll: 1,
   dots : false, 
-  arrows:true
+  arrows:true,
+  responsive: [                   
+   {  breakpoint: 800,
+       settings: {
+         slidesToShow: 2,
+         slidesToScroll: 1,
+         rows: 2,
+              // 세로 방향 슬라이드 옵션
+       }
+  }
+     
+]  //반응형 포인트 지정
 });
 //모바일네비
 var sta = 0;

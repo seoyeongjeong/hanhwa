@@ -1234,7 +1234,6 @@ html .ui-button.ui-state-disabled:active {
 }
 #section7 .box {
     border: 1px solid #ddd;
-    width: 200px;
     height: 50px;
     position: relative;
     box-shadow: none;
@@ -1582,6 +1581,14 @@ html .ui-button.ui-state-disabled:active {
     margin-bottom: 100px;
     margin: 0 auto;
 }
+#footer {
+    background-color: #272727;
+    /* padding-top: 50px; */
+    padding: 40px;
+    color: #fff;
+    font-family: 'NanumSquareL';
+    /* padding-bottom: 40px; */
+}
 }
 
 
@@ -1601,6 +1608,30 @@ html .ui-button.ui-state-disabled:active {
     height: 58px;
     border-bottom: none;
     font-family: 'NanumSquareEB';
+}
+#section6 {
+    padding: 25px;
+}
+#section6 .sec6-left {
+    margin-bottom: 30px;
+}
+#section6 .sec6-lef img{
+    height: 230px;
+}
+#section6 .sec6-left-text h2 {
+    margin: 10px 0px 5px 0px;
+    font-size: 1.2rem;
+}
+#section6 .sec6-left-text>div {
+    font-size: 0.8rem;
+}
+#section6 .sec6-left-text>a {
+    margin-top: 7px;
+    font-size: 0.8rem;
+}
+#section7 .box {
+width:100%
+
 }
 }
 
