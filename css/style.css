@@ -967,7 +967,6 @@ html .ui-button.ui-state-disabled:active {
 
 #section5 .tabSet ul.tabs li {
     float: left;
-    padding: 0 2px 0 0;
     list-style-type: none;
     height: 43px;
 }
@@ -1043,8 +1042,7 @@ html .ui-button.ui-state-disabled:active {
 
 /* sec5 슬라이드*/
 #section5 .slick-list {
-    height: 516px;
-    padding-left: 15px;
+    height: 467px;    padding-left: 15px;
 }
 
 #section5 .slick-slide>div {
@@ -1371,7 +1369,6 @@ html .ui-button.ui-state-disabled:active {
     }
     .tabs li {
         font-size: 0.9rem;
-        width: 30%;
     }
 #section3 .sec3-left>div {
         margin-left: 15px;    }
@@ -1501,6 +1498,9 @@ html .ui-button.ui-state-disabled:active {
 #section4 .sec4-right {
     width: 100%
 }
+#section5 .slick-track {
+    margin-top: 34px;
+}
 #header .btn_all {
     display:block;}
 #section5 .panels {
@@ -1590,6 +1590,14 @@ html .ui-button.ui-state-disabled:active {
     #section3 .sec3-left>div:nth-child(3){
         margin-left: 30px;
     }
+#section5 .slick-slide h2 {
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 15px;
+    height: 58px;
+    border-bottom: none;
+    font-family: 'NanumSquareEB';
+}
 }
 
 
@@ -1617,7 +1625,6 @@ html .ui-button.ui-state-disabled:active {
 
     #section5 .tabSet ul.tabs {
         display: block;
-        padding: 84px 28px 78px 30px;
     }
     #section2 .calender-right {
         width: 80%;
