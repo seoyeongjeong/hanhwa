@@ -1369,8 +1369,9 @@ html .ui-button.ui-state-disabled:active {
     .tabs li {
         font-size: 0.9rem;
     }
-#section3 .sec3-left>div {
-        margin-left: 15px;    }
+    #section3 .sec3-left>div {
+        margin-left: 0px;
+    }
 #section5 .tabSet ul.tabs {
             width: 50%;
         }
@@ -1452,10 +1453,10 @@ html .ui-button.ui-state-disabled:active {
     #section3 .sec3-left>div:nth-child(3){
         margin-left:0
     }
-#section3 h2 {
+    #section3 h2 {
         margin-top: 30px;
         text-align: left;
-        transform: translate(29px, 21px);
+        transform: translate(17px, 12px);
     }
 #section2 .notice-left {
     width: 90%;
@@ -1620,9 +1621,7 @@ html .ui-button.ui-state-disabled:active {
     #section3 .sec3-left>div>a {
         padding: 37px;
     }
-    #section3 .sec3-left>div:nth-child(3){
-        margin-left: 30px;
-    }
+
 #section5 .slick-slide h2 {
     font-size: 1rem;
     text-align: left;
@@ -1646,7 +1645,7 @@ width:100%
         align-items: center;
     }
     #section3 h2 {
-        margin-top: 6px;
+        margin-top: 0px; width: 30%
 
     }
     #section3 .sec3-left>div>a {
@@ -1657,9 +1656,7 @@ width:100%
 
         margin-right: 0px;
     }
-    #section3 h2 {
-        width: 40%;
-    }
+
 
     #section2 .calender-right {
         width: 80%;
@@ -1698,16 +1695,13 @@ width:100%
         }
 }
 @media all and (max-width:530px){
-    #section3 h2 {
-        width: 30%;
-    }
+
     #section3 h2 {
         transform: translateX(25px);
     }
 }
 @media all and (max-width:500px){
     #section3 h2 {
-        width: 30%;
         transform: translateX(25px);
     }
     .sub_news .title {
@@ -1726,8 +1720,8 @@ width:100%
         #section3 .sec3-left>div:nth-child(3) {
             margin-left: 0px;
         }
-        #section3 .sec3-left>div>a {
-            padding: 54px;
+#section3 .sec3-left>div>a {
+            padding: 38px;
         }
         #section2 .more {
             padding-right: 0px;    }
