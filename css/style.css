@@ -1419,8 +1419,7 @@ html .ui-button.ui-state-disabled:active {
       
     }
     #header .nav-bottom h1 {
-        width: 50%;
-    }
+        width: 70%;    }
     #header #nav2{
         display: none;
     }
@@ -1435,6 +1434,7 @@ html .ui-button.ui-state-disabled:active {
         display: block;
         margin: 0 auto;
     }
+
 .ui-datepicker {
         width: 287px;
     }
@@ -1617,7 +1617,6 @@ html .ui-button.ui-state-disabled:active {
 
     #section5 .tabSet ul.tabs {
         display: block;
-        margin: 0 auto;
         padding: 84px 28px 78px 30px;
     }
     #section2 .calender-right {
@@ -1640,13 +1639,6 @@ html .ui-button.ui-state-disabled:active {
     }
 
 }
-@media all and (max-width:355px){
-    #section3 .sec3-left>div:nth-child(3) {
-        margin-left: 0px;
-    }
-
-
-}
 @media all and (max-width:460px){
  
     #section2 .notice-right {
@@ -1662,8 +1654,22 @@ html .ui-button.ui-state-disabled:active {
         #section3 .sec3-left>div>a {
             padding: 54px;
         }
-    
+        #section2 .more {
+            padding-right: 0px;    }
+        .sub_news .border {
+                font-size: 0.8rem;
+                padding: 2px;
+                width: 85px;
+            }
 }
+@media all and (max-width:355px){
+    #section3 .sec3-left>div:nth-child(3) {
+        margin-left: 0px;
+    }
+
+
+}
+
 
 @media all and (max-width:350px){
 
